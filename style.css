@@ -1,0 +1,130 @@
+
+
+/* Zerando CSS */
+
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+
+
+
+html {
+    width: 100vw; 
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+body {
+    background:url(img/fotofundo.jpg);
+    background-position: center; 
+    background-size: cover; 
+    background-position-y: 0px ; 
+    background-repeat: no-repeat; 
+    
+}
+
+/* Menu - header - navbar */
+
+header {
+    width: 100%; 
+    height: 7vh; 
+    background-color: rgba(18, 18, 221, 0.514)
+}
+
+.conteudomenu {
+    text-transform: uppercase;  
+    height: 100%;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.logo{
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+    cursor: pointer;
+}
+.conteudomenu .lista {
+    display: flex; 
+    list-style: none; 
+    gap: 10px; 
+}
+
+.conteudomenu .lista a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    transform: 2ms ease-in; 
+    position: relative;  
+}
+
+
+     
+
+    
+/* Centro - Conteudo principal */
+main{
+    height: 93vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.texto1 {
+    
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    letter-spacing: 1.5rem;
+   
+    padding: 10px;
+}
+.texto2 {
+
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.btns button {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border-radius: 60px;
+    position: relative;
+    transition: 1.5s;
+    background-color: rgba(18, 18, 221, 0.514)
+
+}
+
+
+
+
